@@ -29,3 +29,27 @@ void draw() {
    }
    println(" ");
 }
+
+/* Arduino Sample Sketch 
+// ---- cut from here  
+
+float a,b,c; 
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  a = random(10)+5;
+  b = random(2)+10;
+  c = random(5)+7;
+  // put your main code here, to run repeatedly:
+  Serial.print(a,4);
+  Serial.print(",");
+  Serial.print(b,5);
+  Serial.print(",");
+  Serial.println(c,7);
+}
+// cut until here and save in Arduino IDE
+*/
